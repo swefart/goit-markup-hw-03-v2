@@ -80,8 +80,11 @@ img {
 }
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .logo {
+  margin-right: 76px;
+  padding: 16px 0;
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
@@ -112,9 +115,7 @@ img {
 .header-list li + li {
   margin-left: 40px;
 }
-.header-item:nth-child(2) {
-  margin-left: 76px;
-}
+
 .header-item a {
   display: block;
   padding-top: 24px;
@@ -268,7 +269,7 @@ img {
 .team-photo {
 }
 .member-info {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 .team-subtitle {
@@ -296,8 +297,8 @@ img {
 .footer-info {
 }
 .logo-footer {
+  margin: 0;
   color: var(--additional-two-color);
-  margin-bottom: 16px;
   display: inline-block;
 }
 
